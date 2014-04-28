@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
 
 - (IBAction)goForwardButtonPressed;
 

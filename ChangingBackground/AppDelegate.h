@@ -10,4 +10,7 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+- (UIImage*) getBlueImage;
+- (UIImage*) getGreenImage;
+
 @end
